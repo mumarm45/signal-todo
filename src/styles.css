@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  > div {
+    min-width: 150px;
+  }
+}
+
+ol {
+  > li {
+    padding: 10px;
+    background-color: rgb(205, 226, 252);
+
+    margin-bottom: 15px
+  }
+}
+
+
+ul {
+  padding-left: 15px;
+  margin: 10px 0;
+  > li {
+    margin-bottom: 5px;
+  }
+}
+input {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  vertical-align: middle;
+  padding: 3px;
+}
